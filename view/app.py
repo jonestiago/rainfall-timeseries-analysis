@@ -26,7 +26,8 @@ st.markdown(
 @ st.cache_data
 def carregar_dados():
     '''
-    A definir
+    Carrega a base de dados tratada a partir do arquivo CSV.
+    Retorna um DataFrame ou None se houver erro.
     '''
     caminho_arquivo = r"..\rainfall-timeseries-analysis\data\base_tratada.csv"
 
