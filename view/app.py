@@ -47,7 +47,6 @@ def carregar_dados():
         return None
 
 df = carregar_dados()
-
 df_filtrado = None
 
 # Sidebar (Filtros)
