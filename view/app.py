@@ -49,3 +49,4 @@ def carregar_dados():
 df = carregar_dados()
 
 # Sidebar (Filtros)
+st.sidebar.title("Filtros")
