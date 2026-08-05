@@ -97,7 +97,7 @@ if df_filtrado.empty:
     )
     st.stop()
 
-# Métricas
+# Métricas (Cards)
 st.subheader("Resumo dos Dados Filtrados")
 
 col_1, col_2, col_3 = st.columns(3)
