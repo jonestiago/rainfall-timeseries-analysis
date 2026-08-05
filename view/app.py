@@ -74,4 +74,13 @@ if df is not None and not df.empty:
         index=0
     )
 
-    pass
+    df_filtrado = df.copy()
+
+    if ano_selecionado != "Todos":
+        df_filtrado = df_filtrado[df_filtrado['Ano'] == int(ano_selecionado)]
+    if estacao_selecionada != "Todas":
+        df_filtrado = df_filtrado[df_filtrado['Estacao'] == estacao_selecionada]
+    if classificacao_selecionada != "Todas":
+        df_filtrado = df_filtrado[df_filtrado['Classificacao_Chuva'] == classificacao_selecionada]
+
+# Métricas
