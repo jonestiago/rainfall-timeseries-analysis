@@ -26,4 +26,26 @@ st.markdown(
 # Carregamento de dados
 @ st.cache_data
 def carregar_dados():
-    pass
+    '''
+    A definir
+    '''
+    caminho_arquivo = r"..\rainfall-timeseries-analysis\data\base_tratada.csv"
+
+    if not os.path.exists(caminho_arquivo):
+        st.error(f"Arquivo de dados não encontrado: {caminho_arquivo}")
+        st.info("Certifique-se de que o arquivo 'base_tratada.csv' está na pasta 'data'.")
+        return None
+
+    try:
+        df = pd.read_csv(caminho_arquivo)
+        if 'Data' in df.columns and df['Data'].dtype == 'object':
+            df['Data'] = pd.to_datetime(df['Data'])
+        return df
+
+    except Exception as e:
+        st.error(f"Erro ao carregar os dados: {e}")
+        return None
+
+df = carregar_dados()
+
+# Sidebar (Filtros)
