@@ -29,7 +29,9 @@ def carregar_dados():
     Carrega a base de dados tratada a partir do arquivo CSV.
     Retorna um DataFrame ou None se houver erro.
     '''
-    caminho_arquivo = r"..\rainfall-timeseries-analysis\data\base_tratada.csv"
+
+    diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+    caminho_arquivo = os.path.join(diretorio_atual, '..', 'data', 'base_tratada.csv')
 
     if not os.path.exists(caminho_arquivo):
         st.error(f"Arquivo de dados não encontrado: {caminho_arquivo}")
@@ -47,7 +49,9 @@ def carregar_dados():
         return None
 
 df = carregar_dados()
-df_filtrado = None
+
+if df is None:
+    st.stop()
 
 # Sidebar (Filtros)
 st.sidebar.title("Filtros")
@@ -84,31 +88,37 @@ if df is not None and not df.empty:
     if classificacao_selecionada != "Todas":
         df_filtrado = df_filtrado[df_filtrado['Classificacao_Chuva'] == classificacao_selecionada]
 
+if df_filtrado.empty:
+    st.sidebar.warning(
+        '''
+        A combinação de filtros selecionada não retornou nenhum dado.
+        Tente ajustar os filtros.
+        '''
+    )
+    st.stop()
+
 # Métricas
 st.subheader("Resumo dos Dados Filtrados")
 
-if df_filtrado.empty:
-    st.warning("Nenhum dado disponível para os filtros selecionados. Tente ajustar os filtros.")
-else:
-    col_1, col_2, col_3 = st.columns(3)
+col_1, col_2, col_3 = st.columns(3)
 
-    media_total = df_filtrado['Total'].mean()
-    col_1.metric(
-        label="🌧️ Média mensal (mm)",
-        value=f"{media_total:.1f} mm"
-    )
+media_total = df_filtrado['Total'].mean()
+col_1.metric(
+    label="🌧️ Média mensal (mm)",
+    value=f"{media_total:.1f} mm"
+)
 
-    max_chuva = df_filtrado['Maxima'].max()
-    col_2.metric(
-        label="💧 Maior chuva diária (mm)",
-        value=f"{max_chuva:.1f} mm"
-    )
+max_chuva = df_filtrado['Maxima'].max()
+col_2.metric(
+    label="💧 Maior chuva diária (mm)",
+    value=f"{max_chuva:.1f} mm"
+)
 
-    media_dias_chuva = df_filtrado['NumDiasDeChuva'].mean()
-    col_3.metric(
-        label="📅 Média de Dias de Chuva",
-        value=f"{media_dias_chuva:.1f} dias"
-    )
+media_dias_chuva = df_filtrado['NumDiasDeChuva'].mean()
+col_3.metric(
+    label="📅 Média de Dias de Chuva",
+    value=f"{media_dias_chuva:.1f} dias"
+)
 
 # Abas / Tabs
 abas = ["📈 Visão Geral", "📊 Análise Gráfica", "📋 Dados", "🧠 Interpretação"]
@@ -137,7 +147,7 @@ with aba_1:
     st.pyplot(fig_1)
     st.markdown(
         '''
-        "**Interpretação:** A série mostra a sazonalidade do regime de chuvas na região,
+        **Interpretação:** A série mostra a sazonalidade do regime de chuvas na região,
         com picos no verão e vales no inverno."
         '''
     )
