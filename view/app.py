@@ -60,7 +60,7 @@ if df is not None and not df.empty:
         index=0
     )
 
-    estacoes = ["Todos"] + sorted(df['Estacao'].unique())
+    estacoes = ["Todas"] + sorted(df['Estacao'].unique())
     estacao_selecionada = st.sidebar.selectbox(
         "Selecione a Estação",
         options=estacoes,
