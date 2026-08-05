@@ -84,3 +84,9 @@ if df is not None and not df.empty:
         df_filtrado = df_filtrado[df_filtrado['Classificacao_Chuva'] == classificacao_selecionada]
 
 # Métricas
+st.subheader("Resumo dos Dados Filtrados")
+
+if df_filtrado.empty:
+    st.warning("Nenhum dado disponível para os filtros selecionados. Tente ajustar os filtros.")
+else:
+    pass
