@@ -23,3 +23,7 @@ st.markdown(
     '''
 )
 
+# Carregamento de dados
+@ st.cache_data
+def carregar_dados():
+    pass
