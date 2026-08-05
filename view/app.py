@@ -66,3 +66,12 @@ if df is not None and not df.empty:
         options=estacoes,
         index=0
     )
+
+    classificacoes = ["Todas"] + sorted(df['Classificacao_Chuva'].unique())
+    classificacao_selecionada = st.sidebar.selectbox(
+        "Selecione a Classificação da Chuva",
+        options=classificacoes,
+        index=0
+    )
+
+    pass
