@@ -48,6 +48,8 @@ def carregar_dados():
 
 df = carregar_dados()
 
+df_filtrado = None
+
 # Sidebar (Filtros)
 st.sidebar.title("Filtros")
 
@@ -110,3 +112,37 @@ else:
     )
 
 # Abas / Tabs
+abas = ["📈 Visão Geral", "📊 Análise Gráfica", "📋 Dados", "🧠 Interpretação"]
+aba_1, aba_2, aba_3, aba_4 = st.tabs(abas)
+
+with aba_1:
+    st.subheader("Série Temporal da Precipitação")
+
+    fig_1, ax_1 = plt.subplots(figsize=(12, 5))
+
+    ax_1.plot(
+        df_filtrado['Data'],
+        df_filtrado['Total'],
+        color='#1f77b4',
+        linewidth=1.5,
+        marker='o',
+        markersize=3
+    )
+
+    ax_1.set_title("Precipitação Total Mensal ao Longo do Tempo")
+    ax_1.set_xlabel("Data")
+    ax_1.set_ylabel("Precipitação Total (mm)")
+    ax_1.grid(True, alpha=0.3)
+
+    st.pyplot(fig_1)
+    st.markdown(
+        '''
+        "**Interpretação:** A série mostra a sazonalidade do regime de chuvas na região,
+        com picos no verão e vales no inverno."
+        '''
+    )
+
+with aba_2:
+    st.subheader("Gráficos Detalhados")
+
+    pass
