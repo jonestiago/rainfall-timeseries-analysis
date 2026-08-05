@@ -50,3 +50,12 @@ df = carregar_dados()
 
 # Sidebar (Filtros)
 st.sidebar.title("Filtros")
+
+if df is not None and not df.empty:
+
+    anos = sorted(df['Ano'].unique())
+    ano_selecionado = st.sidebar.selectbox(
+        "Selecione o Ano",
+        options=["Todos"] + anos,
+        index=0
+    )
