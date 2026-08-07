@@ -5,223 +5,223 @@
 @ATTRIBUTE Total NUMERIC
 @ATTRIBUTE NumDiasDeChuva NUMERIC
 @ATTRIBUTE NumDiasSemChuva NUMERIC
-@ATTRIBUTE Estacao {Verão, Outono, Inverno, Primavera}
-@ATTRIBUTE Classificacao_Chuva {Muito Chuvoso, Normal, Muito Seco}
+@ATTRIBUTE Estacao {Verao,Outono,Inverno,Primavera}
+@ATTRIBUTE Classificacao_Chuva {MuitoChuvoso,Normal,MuitoSeco}
 
 @DATA
-2025,190.3,498.6,25,6,Verão,Muito Chuvoso
-2025,112.5,330.29999999999995,17,13,Primavera,Muito Chuvoso
+2025,190.3,498.6,25,6,Verao,MuitoChuvoso
+2025,112.5,330.29999999999995,17,13,Primavera,MuitoChuvoso
 2025,33.5,205.2,20,11,Primavera,Normal
 2025,66.5,264.0,16,14,Primavera,Normal
-2025,39.0,82.0,10,21,Inverno,Muito Seco
+2025,39.0,82.0,10,21,Inverno,MuitoSeco
 2025,45.6,194.1,9,22,Inverno,Normal
 2025,36.9,158.2,14,16,Inverno,Normal
 2025,38.8,225.49999999999997,17,14,Outono,Normal
-2025,144.9,342.5,20,10,Outono,Muito Chuvoso
-2025,89.9,309.90000000000003,17,14,Outono,Muito Chuvoso
-2025,83.1,484.6,25,3,Verão,Muito Chuvoso
-2025,54.3,292.1,22,9,Verão,Muito Chuvoso
-2024,69.6,345.19999999999993,18,13,Verão,Muito Chuvoso
-2024,85.7,365.7000000000001,20,10,Primavera,Muito Chuvoso
+2025,144.9,342.5,20,10,Outono,MuitoChuvoso
+2025,89.9,309.90000000000003,17,14,Outono,MuitoChuvoso
+2025,83.1,484.6,25,3,Verao,MuitoChuvoso
+2025,54.3,292.1,22,9,Verao,MuitoChuvoso
+2024,69.6,345.19999999999993,18,13,Verao,MuitoChuvoso
+2024,85.7,365.7000000000001,20,10,Primavera,MuitoChuvoso
 2024,70.4,253.4,11,20,Primavera,Normal
-2024,34.1,76.30000000000001,8,22,Primavera,Muito Seco
+2024,34.1,76.30000000000001,8,22,Primavera,MuitoSeco
 2024,110.0,171.5,6,25,Inverno,Normal
-2024,9.5,13.9,5,26,Inverno,Muito Seco
-2024,26.5,117.5,14,16,Inverno,Muito Seco
-2024,113.2,410.6,22,9,Outono,Muito Chuvoso
+2024,9.5,13.9,5,26,Inverno,MuitoSeco
+2024,26.5,117.5,14,16,Inverno,MuitoSeco
+2024,113.2,410.6,22,9,Outono,MuitoChuvoso
 2024,49.8,247.0,18,12,Outono,Normal
-2024,139.8,422.0,21,10,Outono,Muito Chuvoso
-2024,74.0,437.69999999999993,21,8,Verão,Muito Chuvoso
-2024,56.8,348.30000000000007,22,9,Verão,Muito Chuvoso
-2023,89.2,351.19999999999993,22,9,Verão,Muito Chuvoso
-2023,72.0,418.80000000000007,15,15,Primavera,Muito Chuvoso
-2023,34.7,120.70000000000002,9,22,Primavera,Muito Seco
+2024,139.8,422.0,21,10,Outono,MuitoChuvoso
+2024,74.0,437.69999999999993,21,8,Verao,MuitoChuvoso
+2024,56.8,348.30000000000007,22,9,Verao,MuitoChuvoso
+2023,89.2,351.19999999999993,22,9,Verao,MuitoChuvoso
+2023,72.0,418.80000000000007,15,15,Primavera,MuitoChuvoso
+2023,34.7,120.70000000000002,9,22,Primavera,MuitoSeco
 2023,47.6,160.6,13,17,Primavera,Normal
-2023,19.2,45.8,7,24,Inverno,Muito Seco
+2023,19.2,45.8,7,24,Inverno,MuitoSeco
 2023,55.0,211.7,12,19,Inverno,Normal
 2023,34.7,176.9,16,14,Inverno,Normal
-2023,109.7,414.63000000000005,20,11,Outono,Muito Chuvoso
-2023,77.1,365.1,20,10,Outono,Muito Chuvoso
+2023,109.7,414.63000000000005,20,11,Outono,MuitoChuvoso
+2023,77.1,365.1,20,10,Outono,MuitoChuvoso
 2023,61.1,216.7,17,14,Outono,Normal
-2023,88.0,469.6,22,6,Verão,Muito Chuvoso
-2023,76.9,454.1,22,9,Verão,Muito Chuvoso
-2022,86.0,347.90000000000003,17,14,Verão,Muito Chuvoso
-2022,107.2,492.30000000000007,15,15,Primavera,Muito Chuvoso
+2023,88.0,469.6,22,6,Verao,MuitoChuvoso
+2023,76.9,454.1,22,9,Verao,MuitoChuvoso
+2022,86.0,347.90000000000003,17,14,Verao,MuitoChuvoso
+2022,107.2,492.30000000000007,15,15,Primavera,MuitoChuvoso
 2022,68.3,209.1,15,16,Primavera,Normal
-2022,38.9,108.6,6,24,Primavera,Muito Seco
+2022,38.9,108.6,6,24,Primavera,MuitoSeco
 2022,38.5,149.89999999999998,12,19,Inverno,Normal
 2022,77.6,190.5,18,13,Inverno,Normal
 2022,43.9,199.7,15,15,Inverno,Normal
-2022,20.0,110.10000000000002,16,15,Outono,Muito Seco
-2022,97.7,409.50000000000006,24,6,Outono,Muito Chuvoso
-2022,98.0,626.1999999999999,28,3,Outono,Muito Chuvoso
-2022,109.9,350.3,18,10,Verão,Muito Chuvoso
-2022,132.2,427.2000000000001,23,8,Verão,Muito Chuvoso
-2021,99.3,451.5,21,10,Verão,Muito Chuvoso
-2021,90.6,349.01000000000005,20,10,Primavera,Muito Chuvoso
+2022,20.0,110.10000000000002,16,15,Outono,MuitoSeco
+2022,97.7,409.50000000000006,24,6,Outono,MuitoChuvoso
+2022,98.0,626.1999999999999,28,3,Outono,MuitoChuvoso
+2022,109.9,350.3,18,10,Verao,MuitoChuvoso
+2022,132.2,427.2000000000001,23,8,Verao,MuitoChuvoso
+2021,99.3,451.5,21,10,Verao,MuitoChuvoso
+2021,90.6,349.01000000000005,20,10,Primavera,MuitoChuvoso
 2021,39.5,243.3,19,12,Primavera,Normal
-2021,20.7,79.50000000000001,11,20,Inverno,Muito Seco
+2021,20.7,79.50000000000001,11,20,Inverno,MuitoSeco
 2021,44.9,180.6,21,9,Inverno,Normal
-2021,90.6,323.4,20,11,Outono,Muito Chuvoso
-2021,79.1,372.7,21,9,Outono,Muito Chuvoso
-2021,151.4,472.7,20,11,Outono,Muito Chuvoso
-2021,43.2,200.5,19,9,Verão,Normal
-2021,116.6,664.9,28,3,Verão,Muito Chuvoso
-2020,56.8,225.7,20,11,Verão,Normal
+2021,90.6,323.4,20,11,Outono,MuitoChuvoso
+2021,79.1,372.7,21,9,Outono,MuitoChuvoso
+2021,151.4,472.7,20,11,Outono,MuitoChuvoso
+2021,43.2,200.5,19,9,Verao,Normal
+2021,116.6,664.9,28,3,Verao,MuitoChuvoso
+2020,56.8,225.7,20,11,Verao,Normal
 2020,57.9,217.8,16,14,Primavera,Normal
-2020,23.0,92.29999999999998,8,23,Primavera,Muito Seco
+2020,23.0,92.29999999999998,8,23,Primavera,MuitoSeco
 2020,47.4,187.50000000000003,10,20,Primavera,Normal
 2020,51.9,137.0,7,24,Inverno,Normal
-2020,19.2,72.2,11,20,Inverno,Muito Seco
+2020,19.2,72.2,11,20,Inverno,MuitoSeco
 2020,38.2,202.6,20,10,Inverno,Normal
-2020,248.3,554.3000000000001,18,13,Outono,Muito Chuvoso
-2020,103.3,458.8,16,14,Outono,Muito Chuvoso
+2020,248.3,554.3000000000001,18,13,Outono,MuitoChuvoso
+2020,103.3,458.8,16,14,Outono,MuitoChuvoso
 2020,31.5,183.2,16,15,Outono,Normal
-2020,114.1,338.5,18,11,Verão,Muito Chuvoso
-2020,43.1,296.1,11,20,Verão,Muito Chuvoso
-2019,81.6,533.8000000000001,15,16,Verão,Muito Chuvoso
-2019,82.3,385.1,22,8,Primavera,Muito Chuvoso
+2020,114.1,338.5,18,11,Verao,MuitoChuvoso
+2020,43.1,296.1,11,20,Verao,MuitoChuvoso
+2019,81.6,533.8000000000001,15,16,Verao,MuitoChuvoso
+2019,82.3,385.1,22,8,Primavera,MuitoChuvoso
 2019,37.5,184.55,16,15,Primavera,Normal
-2019,28.3,110.3,12,18,Primavera,Muito Seco
-2019,42.3,122.2,11,20,Inverno,Muito Seco
+2019,28.3,110.3,12,18,Primavera,MuitoSeco
+2019,42.3,122.2,11,20,Inverno,MuitoSeco
 2019,37.7,245.3,20,11,Inverno,Normal
-2019,57.7,304.9,23,7,Inverno,Muito Chuvoso
+2019,57.7,304.9,23,7,Inverno,MuitoChuvoso
 2019,43.7,244.8,20,11,Outono,Normal
 2019,70.0,250.79999999999995,25,5,Outono,Normal
-2019,64.5,351.3,23,8,Outono,Muito Chuvoso
-2019,67.6,242.00000000000003,21,7,Verão,Normal
-2019,54.1,443.7,21,10,Verão,Muito Chuvoso
-2018,56.9,459.3,26,5,Verão,Muito Chuvoso
-2018,72.7,328.40000000000003,19,11,Primavera,Muito Chuvoso
-2018,68.4,396.3,14,17,Primavera,Muito Chuvoso
-2018,31.2,112.2,8,22,Primavera,Muito Seco
-2018,23.3,74.4,11,20,Inverno,Muito Seco
-2018,22.4,88.2,8,23,Inverno,Muito Seco
+2019,64.5,351.3,23,8,Outono,MuitoChuvoso
+2019,67.6,242.00000000000003,21,7,Verao,Normal
+2019,54.1,443.7,21,10,Verao,MuitoChuvoso
+2018,56.9,459.3,26,5,Verao,MuitoChuvoso
+2018,72.7,328.40000000000003,19,11,Primavera,MuitoChuvoso
+2018,68.4,396.3,14,17,Primavera,MuitoChuvoso
+2018,31.2,112.2,8,22,Primavera,MuitoSeco
+2018,23.3,74.4,11,20,Inverno,MuitoSeco
+2018,22.4,88.2,8,23,Inverno,MuitoSeco
 2018,45.1,161.0,17,13,Inverno,Normal
 2018,60.3,267.7,26,5,Outono,Normal
 2018,51.1,236.2,23,7,Outono,Normal
-2018,58.2,280.99999999999994,18,13,Outono,Muito Chuvoso
-2018,76.5,389.1,23,5,Verão,Muito Chuvoso
-2018,126.6,317.20000000000005,20,11,Verão,Muito Chuvoso
-2017,70.8,151.8,14,17,Verão,Normal
-2017,79.6,305.8999999999999,12,18,Primavera,Muito Chuvoso
+2018,58.2,280.99999999999994,18,13,Outono,MuitoChuvoso
+2018,76.5,389.1,23,5,Verao,MuitoChuvoso
+2018,126.6,317.20000000000005,20,11,Verao,MuitoChuvoso
+2017,70.8,151.8,14,17,Verao,Normal
+2017,79.6,305.8999999999999,12,18,Primavera,MuitoChuvoso
 2017,69.1,229.40000000000003,16,15,Primavera,Normal
-2017,53.1,283.6,17,13,Primavera,Muito Chuvoso
-2017,32.8,124.9,13,18,Inverno,Muito Seco
-2017,22.2,46.7,5,26,Inverno,Muito Seco
+2017,53.1,283.6,17,13,Primavera,MuitoChuvoso
+2017,32.8,124.9,13,18,Inverno,MuitoSeco
+2017,22.2,46.7,5,26,Inverno,MuitoSeco
 2017,54.1,138.60000000000002,12,18,Inverno,Normal
-2017,26.5,109.4,10,21,Outono,Muito Seco
-2017,55.0,290.70000000000005,17,13,Outono,Muito Chuvoso
-2017,99.5,413.3,16,15,Outono,Muito Chuvoso
-2017,73.9,285.1,14,14,Verão,Muito Chuvoso
-2017,108.5,485.5,19,12,Verão,Muito Chuvoso
-2016,62.5,270.79999999999995,17,14,Verão,Muito Chuvoso
+2017,26.5,109.4,10,21,Outono,MuitoSeco
+2017,55.0,290.70000000000005,17,13,Outono,MuitoChuvoso
+2017,99.5,413.3,16,15,Outono,MuitoChuvoso
+2017,73.9,285.1,14,14,Verao,MuitoChuvoso
+2017,108.5,485.5,19,12,Verao,MuitoChuvoso
+2016,62.5,270.79999999999995,17,14,Verao,MuitoChuvoso
 2016,36.8,149.79999999999998,11,19,Primavera,Normal
 2016,61.5,167.10000000000002,14,17,Primavera,Normal
-2016,41.8,125.9,9,21,Primavera,Muito Seco
-2016,42.5,88.19999999999999,7,24,Inverno,Muito Seco
+2016,41.8,125.9,9,21,Primavera,MuitoSeco
+2016,42.5,88.19999999999999,7,24,Inverno,MuitoSeco
 2016,32.6,151.39999999999998,20,11,Inverno,Normal
-2016,13.5,90.4,25,5,Inverno,Muito Seco
-1998,45.0,0.0,0,31,Verão,Muito Seco
-1998,45.0,0.0,0,31,Verão,Muito Seco
-1998,45.0,0.0,0,30,Primavera,Muito Seco
-1998,45.0,0.0,0,30,Primavera,Muito Seco
-1998,45.0,0.0,0,31,Primavera,Muito Seco
-1998,45.0,0.0,0,31,Primavera,Muito Seco
-1998,45.0,0.0,0,30,Primavera,Muito Seco
-1998,45.0,0.0,0,30,Primavera,Muito Seco
-1998,33.6,112.6,6,25,Inverno,Muito Seco
-1998,33.6,112.6,6,25,Inverno,Muito Seco
-1998,45.0,0.0,0,31,Inverno,Muito Seco
-1998,45.0,0.0,0,31,Inverno,Muito Seco
+2016,13.5,90.4,25,5,Inverno,MuitoSeco
+1998,45.0,0.0,0,31,Verao,MuitoSeco
+1998,45.0,0.0,0,31,Verao,MuitoSeco
+1998,45.0,0.0,0,30,Primavera,MuitoSeco
+1998,45.0,0.0,0,30,Primavera,MuitoSeco
+1998,45.0,0.0,0,31,Primavera,MuitoSeco
+1998,45.0,0.0,0,31,Primavera,MuitoSeco
+1998,45.0,0.0,0,30,Primavera,MuitoSeco
+1998,45.0,0.0,0,30,Primavera,MuitoSeco
+1998,33.6,112.6,6,25,Inverno,MuitoSeco
+1998,33.6,112.6,6,25,Inverno,MuitoSeco
+1998,45.0,0.0,0,31,Inverno,MuitoSeco
+1998,45.0,0.0,0,31,Inverno,MuitoSeco
 1998,61.8,160.20000000000002,8,22,Inverno,Normal
 1998,61.8,160.20000000000002,8,22,Inverno,Normal
-1998,58.7,273.5,16,15,Outono,Muito Chuvoso
-1998,58.7,273.5,16,15,Outono,Muito Chuvoso
-1998,26.5,133.9,16,14,Outono,Muito Seco
-1998,26.5,133.9,16,14,Outono,Muito Seco
+1998,58.7,273.5,16,15,Outono,MuitoChuvoso
+1998,58.7,273.5,16,15,Outono,MuitoChuvoso
+1998,26.5,133.9,16,14,Outono,MuitoSeco
+1998,26.5,133.9,16,14,Outono,MuitoSeco
 1998,137.0,201.8,11,20,Outono,Normal
 1998,137.0,201.8,11,20,Outono,Normal
-1998,6.3,28.4,9,19,Verão,Muito Seco
-1998,6.3,28.4,9,19,Verão,Muito Seco
-1998,76.7,272.7,13,18,Verão,Muito Chuvoso
-1998,76.7,272.7,13,18,Verão,Muito Chuvoso
-1997,38.6,229.3,17,14,Verão,Normal
-1997,38.6,229.3,17,14,Verão,Normal
+1998,6.3,28.4,9,19,Verao,MuitoSeco
+1998,6.3,28.4,9,19,Verao,MuitoSeco
+1998,76.7,272.7,13,18,Verao,MuitoChuvoso
+1998,76.7,272.7,13,18,Verao,MuitoChuvoso
+1997,38.6,229.3,17,14,Verao,Normal
+1997,38.6,229.3,17,14,Verao,Normal
 1997,28.9,185.9,14,16,Primavera,Normal
 1997,28.9,185.9,14,16,Primavera,Normal
-1997,18.4,60.900000000000006,9,22,Primavera,Muito Seco
-1997,18.4,60.900000000000006,9,22,Primavera,Muito Seco
-1997,37.6,114.0,10,20,Primavera,Muito Seco
-1997,37.6,114.0,10,20,Primavera,Muito Seco
-1997,22.7,58.8,7,24,Inverno,Muito Seco
-1997,22.7,58.8,7,24,Inverno,Muito Seco
-1997,4.2,9.2,4,27,Inverno,Muito Seco
-1997,4.2,9.2,4,27,Inverno,Muito Seco
-1997,14.0,45.00000000000001,8,22,Inverno,Muito Seco
-1997,14.0,45.00000000000001,8,22,Inverno,Muito Seco
-1997,18.4,40.00000000000001,7,24,Outono,Muito Seco
-1997,18.4,40.00000000000001,7,24,Outono,Muito Seco
-1997,12.8,42.7,9,21,Outono,Muito Seco
-1997,12.8,42.7,9,21,Outono,Muito Seco
-1997,24.9,99.09999999999998,14,17,Outono,Muito Seco
-1997,24.9,99.09999999999998,14,17,Outono,Muito Seco
-1997,26.2,157.8,19,9,Verão,Normal
-1997,26.2,157.8,19,9,Verão,Normal
-1997,13.0,32.2,7,24,Verão,Muito Seco
-1997,13.0,32.2,7,24,Verão,Muito Seco
-1996,34.0,161.99999999999997,12,19,Verão,Normal
-1996,34.0,161.99999999999997,12,19,Verão,Normal
-1996,28.0,106.1,10,20,Primavera,Muito Seco
-1996,28.0,106.1,10,20,Primavera,Muito Seco
-1996,9.6,29.4,6,25,Primavera,Muito Seco
-1996,9.6,29.4,6,25,Primavera,Muito Seco
-1996,12.6,27.200000000000003,6,24,Primavera,Muito Seco
-1996,12.6,27.200000000000003,6,24,Primavera,Muito Seco
-1996,4.7,6.9,3,28,Inverno,Muito Seco
-1996,4.7,6.9,3,28,Inverno,Muito Seco
-1996,9.6,15.2,6,25,Inverno,Muito Seco
-1996,9.6,15.2,6,25,Inverno,Muito Seco
-1996,12.6,39.4,7,23,Inverno,Muito Seco
-1996,12.6,39.4,7,23,Inverno,Muito Seco
-1996,14.2,58.6,12,19,Outono,Muito Seco
-1996,14.2,58.6,12,19,Outono,Muito Seco
-1996,18.4,54.6,11,19,Outono,Muito Seco
-1996,18.4,54.6,11,19,Outono,Muito Seco
-1996,18.6,84.60000000000001,7,24,Outono,Muito Seco
-1996,18.6,84.60000000000001,7,24,Outono,Muito Seco
-1996,28.6,185.2,15,14,Verão,Normal
-1996,28.6,185.2,15,14,Verão,Normal
-1996,29.0,80.6,9,22,Verão,Muito Seco
-1996,29.0,80.6,9,22,Verão,Muito Seco
-1995,40.6,210.29999999999995,15,16,Verão,Normal
-1995,40.6,210.29999999999995,15,16,Verão,Normal
+1997,18.4,60.900000000000006,9,22,Primavera,MuitoSeco
+1997,18.4,60.900000000000006,9,22,Primavera,MuitoSeco
+1997,37.6,114.0,10,20,Primavera,MuitoSeco
+1997,37.6,114.0,10,20,Primavera,MuitoSeco
+1997,22.7,58.8,7,24,Inverno,MuitoSeco
+1997,22.7,58.8,7,24,Inverno,MuitoSeco
+1997,4.2,9.2,4,27,Inverno,MuitoSeco
+1997,4.2,9.2,4,27,Inverno,MuitoSeco
+1997,14.0,45.00000000000001,8,22,Inverno,MuitoSeco
+1997,14.0,45.00000000000001,8,22,Inverno,MuitoSeco
+1997,18.4,40.00000000000001,7,24,Outono,MuitoSeco
+1997,18.4,40.00000000000001,7,24,Outono,MuitoSeco
+1997,12.8,42.7,9,21,Outono,MuitoSeco
+1997,12.8,42.7,9,21,Outono,MuitoSeco
+1997,24.9,99.09999999999998,14,17,Outono,MuitoSeco
+1997,24.9,99.09999999999998,14,17,Outono,MuitoSeco
+1997,26.2,157.8,19,9,Verao,Normal
+1997,26.2,157.8,19,9,Verao,Normal
+1997,13.0,32.2,7,24,Verao,MuitoSeco
+1997,13.0,32.2,7,24,Verao,MuitoSeco
+1996,34.0,161.99999999999997,12,19,Verao,Normal
+1996,34.0,161.99999999999997,12,19,Verao,Normal
+1996,28.0,106.1,10,20,Primavera,MuitoSeco
+1996,28.0,106.1,10,20,Primavera,MuitoSeco
+1996,9.6,29.4,6,25,Primavera,MuitoSeco
+1996,9.6,29.4,6,25,Primavera,MuitoSeco
+1996,12.6,27.200000000000003,6,24,Primavera,MuitoSeco
+1996,12.6,27.200000000000003,6,24,Primavera,MuitoSeco
+1996,4.7,6.9,3,28,Inverno,MuitoSeco
+1996,4.7,6.9,3,28,Inverno,MuitoSeco
+1996,9.6,15.2,6,25,Inverno,MuitoSeco
+1996,9.6,15.2,6,25,Inverno,MuitoSeco
+1996,12.6,39.4,7,23,Inverno,MuitoSeco
+1996,12.6,39.4,7,23,Inverno,MuitoSeco
+1996,14.2,58.6,12,19,Outono,MuitoSeco
+1996,14.2,58.6,12,19,Outono,MuitoSeco
+1996,18.4,54.6,11,19,Outono,MuitoSeco
+1996,18.4,54.6,11,19,Outono,MuitoSeco
+1996,18.6,84.60000000000001,7,24,Outono,MuitoSeco
+1996,18.6,84.60000000000001,7,24,Outono,MuitoSeco
+1996,28.6,185.2,15,14,Verao,Normal
+1996,28.6,185.2,15,14,Verao,Normal
+1996,29.0,80.6,9,22,Verao,MuitoSeco
+1996,29.0,80.6,9,22,Verao,MuitoSeco
+1995,40.6,210.29999999999995,15,16,Verao,Normal
+1995,40.6,210.29999999999995,15,16,Verao,Normal
 1995,32.6,156.2,12,18,Primavera,Normal
 1995,32.6,156.2,12,18,Primavera,Normal
-1995,42.0,128.0,8,23,Primavera,Muito Seco
-1995,42.0,128.0,8,23,Primavera,Muito Seco
-1995,4.8,13.0,5,25,Primavera,Muito Seco
-1995,4.8,13.0,5,25,Primavera,Muito Seco
-1995,25.9,34.5,6,25,Inverno,Muito Seco
-1995,25.9,34.5,6,25,Inverno,Muito Seco
-1995,2.7,13.9,11,20,Inverno,Muito Seco
-1995,2.7,13.9,11,20,Inverno,Muito Seco
-1995,17.2,50.9,13,17,Inverno,Muito Seco
-1995,17.2,50.9,13,17,Inverno,Muito Seco
-1995,33.9,80.2,17,14,Outono,Muito Seco
-1995,33.9,80.2,17,14,Outono,Muito Seco
-1995,68.6,122.2,16,14,Outono,Muito Seco
-1995,68.6,122.2,16,14,Outono,Muito Seco
-1995,68.7,315.6,19,12,Outono,Muito Chuvoso
-1995,68.7,315.6,19,12,Outono,Muito Chuvoso
-1995,43.3,123.0,15,13,Verão,Muito Seco
-1995,43.3,123.0,15,13,Verão,Muito Seco
-1995,38.6,162.79999999999998,21,10,Verão,Normal
-1995,38.6,162.79999999999998,21,10,Verão,Normal
-1994,28.9,151.0,19,12,Verão,Normal
-1994,28.9,151.0,19,12,Verão,Normal
-1994,86.6,485.00000000000006,22,8,Primavera,Muito Chuvoso
-1994,86.6,485.00000000000006,22,8,Primavera,Muito Chuvoso
+1995,42.0,128.0,8,23,Primavera,MuitoSeco
+1995,42.0,128.0,8,23,Primavera,MuitoSeco
+1995,4.8,13.0,5,25,Primavera,MuitoSeco
+1995,4.8,13.0,5,25,Primavera,MuitoSeco
+1995,25.9,34.5,6,25,Inverno,MuitoSeco
+1995,25.9,34.5,6,25,Inverno,MuitoSeco
+1995,2.7,13.9,11,20,Inverno,MuitoSeco
+1995,2.7,13.9,11,20,Inverno,MuitoSeco
+1995,17.2,50.9,13,17,Inverno,MuitoSeco
+1995,17.2,50.9,13,17,Inverno,MuitoSeco
+1995,33.9,80.2,17,14,Outono,MuitoSeco
+1995,33.9,80.2,17,14,Outono,MuitoSeco
+1995,68.6,122.2,16,14,Outono,MuitoSeco
+1995,68.6,122.2,16,14,Outono,MuitoSeco
+1995,68.7,315.6,19,12,Outono,MuitoChuvoso
+1995,68.7,315.6,19,12,Outono,MuitoChuvoso
+1995,43.3,123.0,15,13,Verao,MuitoSeco
+1995,43.3,123.0,15,13,Verao,MuitoSeco
+1995,38.6,162.79999999999998,21,10,Verao,Normal
+1995,38.6,162.79999999999998,21,10,Verao,Normal
+1994,28.9,151.0,19,12,Verao,Normal
+1994,28.9,151.0,19,12,Verao,Normal
+1994,86.6,485.00000000000006,22,8,Primavera,MuitoChuvoso
+1994,86.6,485.00000000000006,22,8,Primavera,MuitoChuvoso
 1994,45.9,179.29999999999998,22,9,Primavera,Normal
 1994,45.9,179.29999999999998,22,9,Primavera,Normal
 1994,36.4,199.6,26,4,Primavera,Normal
@@ -230,183 +230,183 @@
 1994,31.2,259.40000000000003,30,1,Inverno,Normal
 1994,18.7,160.4,24,7,Inverno,Normal
 1994,18.7,160.4,24,7,Inverno,Normal
-1994,76.5,341.2,23,7,Inverno,Muito Chuvoso
-1994,76.5,341.2,23,7,Inverno,Muito Chuvoso
-1994,52.9,362.9999999999999,26,5,Outono,Muito Chuvoso
-1994,52.9,362.9999999999999,26,5,Outono,Muito Chuvoso
+1994,76.5,341.2,23,7,Inverno,MuitoChuvoso
+1994,76.5,341.2,23,7,Inverno,MuitoChuvoso
+1994,52.9,362.9999999999999,26,5,Outono,MuitoChuvoso
+1994,52.9,362.9999999999999,26,5,Outono,MuitoChuvoso
 1994,45.0,196.8,22,8,Outono,Normal
 1994,45.0,196.8,22,8,Outono,Normal
-1994,45.0,0.0,0,31,Outono,Muito Seco
-1994,45.0,0.0,0,28,Verão,Muito Seco
-1994,45.0,0.0,0,31,Verão,Muito Seco
-1993,45.0,0.0,0,31,Verão,Muito Seco
-1993,45.0,0.0,0,30,Primavera,Muito Seco
-1993,45.0,0.0,0,31,Primavera,Muito Seco
+1994,45.0,0.0,0,31,Outono,MuitoSeco
+1994,45.0,0.0,0,28,Verao,MuitoSeco
+1994,45.0,0.0,0,31,Verao,MuitoSeco
+1993,45.0,0.0,0,31,Verao,MuitoSeco
+1993,45.0,0.0,0,30,Primavera,MuitoSeco
+1993,45.0,0.0,0,31,Primavera,MuitoSeco
 1993,43.6,163.60000000000005,21,9,Primavera,Normal
 1993,43.6,160.0,9,21,Primavera,Normal
 1993,57.6,243.0,14,17,Inverno,Normal
 1993,57.6,243.0,14,17,Inverno,Normal
-1993,30.0,94.8,13,18,Inverno,Muito Seco
-1993,30.0,94.8,13,18,Inverno,Muito Seco
+1993,30.0,94.8,13,18,Inverno,MuitoSeco
+1993,30.0,94.8,13,18,Inverno,MuitoSeco
 1993,31.5,186.5,13,17,Inverno,Normal
 1993,31.5,186.5,13,17,Inverno,Normal
-1993,44.0,120.6,6,25,Outono,Muito Seco
-1993,44.0,120.6,6,25,Outono,Muito Seco
-1993,64.6,460.4,19,11,Outono,Muito Chuvoso
-1993,64.6,460.4,19,11,Outono,Muito Chuvoso
-1993,63.8,310.2,15,16,Outono,Muito Chuvoso
-1993,63.8,310.2,15,16,Outono,Muito Chuvoso
-1993,70.2,215.6,11,17,Verão,Normal
-1993,70.2,215.6,11,17,Verão,Normal
-1993,43.2,218.2,13,18,Verão,Normal
-1993,43.2,218.2,13,18,Verão,Normal
-1992,36.2,246.0,13,18,Verão,Normal
-1992,36.2,246.0,13,18,Verão,Normal
-1992,28.8,109.6,8,22,Primavera,Muito Seco
-1992,28.8,109.6,8,22,Primavera,Muito Seco
-1992,22.2,99.0,10,21,Primavera,Muito Seco
-1992,22.2,109.0,10,21,Primavera,Muito Seco
+1993,44.0,120.6,6,25,Outono,MuitoSeco
+1993,44.0,120.6,6,25,Outono,MuitoSeco
+1993,64.6,460.4,19,11,Outono,MuitoChuvoso
+1993,64.6,460.4,19,11,Outono,MuitoChuvoso
+1993,63.8,310.2,15,16,Outono,MuitoChuvoso
+1993,63.8,310.2,15,16,Outono,MuitoChuvoso
+1993,70.2,215.6,11,17,Verao,Normal
+1993,70.2,215.6,11,17,Verao,Normal
+1993,43.2,218.2,13,18,Verao,Normal
+1993,43.2,218.2,13,18,Verao,Normal
+1992,36.2,246.0,13,18,Verao,Normal
+1992,36.2,246.0,13,18,Verao,Normal
+1992,28.8,109.6,8,22,Primavera,MuitoSeco
+1992,28.8,109.6,8,22,Primavera,MuitoSeco
+1992,22.2,99.0,10,21,Primavera,MuitoSeco
+1992,22.2,109.0,10,21,Primavera,MuitoSeco
 1992,45.0,170.20000000000002,11,19,Primavera,Normal
 1992,45.0,170.4,11,19,Primavera,Normal
 1992,33.8,185.6,8,23,Inverno,Normal
 1992,33.8,185.6,8,23,Inverno,Normal
-1992,18.0,55.8,6,25,Inverno,Muito Seco
-1992,18.0,55.8,6,25,Inverno,Muito Seco
+1992,18.0,55.8,6,25,Inverno,MuitoSeco
+1992,18.0,55.8,6,25,Inverno,MuitoSeco
 1992,24.0,162.8,13,17,Inverno,Normal
 1992,24.0,162.8,13,17,Inverno,Normal
 1992,75.0,196.4,11,20,Outono,Normal
 1992,75.0,196.4,11,20,Outono,Normal
-1992,203.2,390.0,11,19,Outono,Muito Chuvoso
-1992,203.2,390.0,11,19,Outono,Muito Chuvoso
-1992,67.8,459.4,15,16,Outono,Muito Chuvoso
-1992,67.8,459.4,15,16,Outono,Muito Chuvoso
-1992,66.0,190.0,12,17,Verão,Normal
-1992,66.0,190.0,12,17,Verão,Normal
-1992,27.0,324.79999999999995,20,11,Verão,Muito Chuvoso
-1992,27.0,324.79999999999995,20,11,Verão,Muito Chuvoso
-1991,25.0,258.5,28,3,Verão,Normal
-1991,25.0,258.5,28,3,Verão,Normal
-1991,45.0,0.0,0,30,Primavera,Muito Seco
-1991,23.6,44.8,3,28,Primavera,Muito Seco
-1991,23.6,44.8,3,28,Primavera,Muito Seco
+1992,203.2,390.0,11,19,Outono,MuitoChuvoso
+1992,203.2,390.0,11,19,Outono,MuitoChuvoso
+1992,67.8,459.4,15,16,Outono,MuitoChuvoso
+1992,67.8,459.4,15,16,Outono,MuitoChuvoso
+1992,66.0,190.0,12,17,Verao,Normal
+1992,66.0,190.0,12,17,Verao,Normal
+1992,27.0,324.79999999999995,20,11,Verao,MuitoChuvoso
+1992,27.0,324.79999999999995,20,11,Verao,MuitoChuvoso
+1991,25.0,258.5,28,3,Verao,Normal
+1991,25.0,258.5,28,3,Verao,Normal
+1991,45.0,0.0,0,30,Primavera,MuitoSeco
+1991,23.6,44.8,3,28,Primavera,MuitoSeco
+1991,23.6,44.8,3,28,Primavera,MuitoSeco
 1991,85.0,153.0,6,24,Primavera,Normal
 1991,85.0,153.0,6,24,Primavera,Normal
-1991,35.4,88.4,7,24,Inverno,Muito Seco
-1991,35.4,88.4,7,24,Inverno,Muito Seco
-1991,49.6,86.8,4,27,Inverno,Muito Seco
-1991,49.6,86.8,4,27,Inverno,Muito Seco
-1991,61.4,278.79999999999995,9,21,Inverno,Muito Chuvoso
-1991,61.4,278.79999999999995,9,21,Inverno,Muito Chuvoso
-1991,65.0,405.8,16,15,Outono,Muito Chuvoso
-1991,65.0,405.8,16,15,Outono,Muito Chuvoso
-1991,72.4,359.0,13,17,Outono,Muito Chuvoso
-1991,72.4,445.3999999999999,13,17,Outono,Muito Chuvoso
-1991,75.0,375.8,16,15,Outono,Muito Chuvoso
-1991,75.0,375.8,16,15,Outono,Muito Chuvoso
-1991,39.2,311.40000000000003,18,10,Verão,Muito Chuvoso
-1991,39.2,311.40000000000003,18,10,Verão,Muito Chuvoso
-1991,45.0,264.0,17,14,Verão,Normal
-1991,45.0,264.0,17,14,Verão,Normal
-1990,88.2,360.4,16,15,Verão,Muito Chuvoso
-1990,88.2,360.4,16,15,Verão,Muito Chuvoso
-1990,49.0,285.6,13,17,Primavera,Muito Chuvoso
-1990,49.0,285.6,13,17,Primavera,Muito Chuvoso
-1990,0.0,0.0,0,31,Primavera,Muito Seco
-1990,0.0,0.0,0,31,Primavera,Muito Seco
-1990,0.0,0.0,0,30,Primavera,Muito Seco
-1990,0.0,0.0,0,30,Primavera,Muito Seco
-1990,0.0,0.0,0,31,Inverno,Muito Seco
-1990,0.0,0.0,0,31,Inverno,Muito Seco
+1991,35.4,88.4,7,24,Inverno,MuitoSeco
+1991,35.4,88.4,7,24,Inverno,MuitoSeco
+1991,49.6,86.8,4,27,Inverno,MuitoSeco
+1991,49.6,86.8,4,27,Inverno,MuitoSeco
+1991,61.4,278.79999999999995,9,21,Inverno,MuitoChuvoso
+1991,61.4,278.79999999999995,9,21,Inverno,MuitoChuvoso
+1991,65.0,405.8,16,15,Outono,MuitoChuvoso
+1991,65.0,405.8,16,15,Outono,MuitoChuvoso
+1991,72.4,359.0,13,17,Outono,MuitoChuvoso
+1991,72.4,445.3999999999999,13,17,Outono,MuitoChuvoso
+1991,75.0,375.8,16,15,Outono,MuitoChuvoso
+1991,75.0,375.8,16,15,Outono,MuitoChuvoso
+1991,39.2,311.40000000000003,18,10,Verao,MuitoChuvoso
+1991,39.2,311.40000000000003,18,10,Verao,MuitoChuvoso
+1991,45.0,264.0,17,14,Verao,Normal
+1991,45.0,264.0,17,14,Verao,Normal
+1990,88.2,360.4,16,15,Verao,MuitoChuvoso
+1990,88.2,360.4,16,15,Verao,MuitoChuvoso
+1990,49.0,285.6,13,17,Primavera,MuitoChuvoso
+1990,49.0,285.6,13,17,Primavera,MuitoChuvoso
+1990,0.0,0.0,0,31,Primavera,MuitoSeco
+1990,0.0,0.0,0,31,Primavera,MuitoSeco
+1990,0.0,0.0,0,30,Primavera,MuitoSeco
+1990,0.0,0.0,0,30,Primavera,MuitoSeco
+1990,0.0,0.0,0,31,Inverno,MuitoSeco
+1990,0.0,0.0,0,31,Inverno,MuitoSeco
 1990,34.0,202.6,14,17,Inverno,Normal
 1990,34.0,202.6,14,17,Inverno,Normal
 1990,25.0,196.0,13,17,Inverno,Normal
 1990,25.0,196.0,13,17,Inverno,Normal
 1990,37.0,230.8,14,17,Outono,Normal
-1990,100.0,320.8,14,17,Outono,Muito Chuvoso
-1990,114.8,271.20000000000005,11,19,Outono,Muito Chuvoso
-1990,114.8,271.20000000000005,11,19,Outono,Muito Chuvoso
-1990,83.2,268.6,10,21,Outono,Muito Chuvoso
-1990,83.2,268.6,10,21,Outono,Muito Chuvoso
-1990,79.2,273.4,12,16,Verão,Muito Chuvoso
-1990,79.2,273.4,12,16,Verão,Muito Chuvoso
-1990,55.2,294.0,10,21,Verão,Muito Chuvoso
-1990,55.2,294.0,10,21,Verão,Muito Chuvoso
-1989,39.0,228.00000000000003,12,19,Verão,Normal
-1989,39.0,228.00000000000003,12,19,Verão,Normal
-1989,100.0,277.2,6,24,Primavera,Muito Chuvoso
-1989,100.0,277.2,6,24,Primavera,Muito Chuvoso
-1989,65.4,369.0,13,18,Primavera,Muito Chuvoso
-1989,65.4,369.0,13,18,Primavera,Muito Chuvoso
-1989,34.2,72.60000000000001,3,27,Primavera,Muito Seco
-1989,34.2,72.60000000000001,3,27,Primavera,Muito Seco
+1990,100.0,320.8,14,17,Outono,MuitoChuvoso
+1990,114.8,271.20000000000005,11,19,Outono,MuitoChuvoso
+1990,114.8,271.20000000000005,11,19,Outono,MuitoChuvoso
+1990,83.2,268.6,10,21,Outono,MuitoChuvoso
+1990,83.2,268.6,10,21,Outono,MuitoChuvoso
+1990,79.2,273.4,12,16,Verao,MuitoChuvoso
+1990,79.2,273.4,12,16,Verao,MuitoChuvoso
+1990,55.2,294.0,10,21,Verao,MuitoChuvoso
+1990,55.2,294.0,10,21,Verao,MuitoChuvoso
+1989,39.0,228.00000000000003,12,19,Verao,Normal
+1989,39.0,228.00000000000003,12,19,Verao,Normal
+1989,100.0,277.2,6,24,Primavera,MuitoChuvoso
+1989,100.0,277.2,6,24,Primavera,MuitoChuvoso
+1989,65.4,369.0,13,18,Primavera,MuitoChuvoso
+1989,65.4,369.0,13,18,Primavera,MuitoChuvoso
+1989,34.2,72.60000000000001,3,27,Primavera,MuitoSeco
+1989,34.2,72.60000000000001,3,27,Primavera,MuitoSeco
 1989,58.0,217.4,9,22,Inverno,Normal
 1989,58.0,217.4,9,22,Inverno,Normal
-1989,36.6,75.6,6,25,Inverno,Muito Seco
-1989,36.6,75.6,6,25,Inverno,Muito Seco
+1989,36.6,75.6,6,25,Inverno,MuitoSeco
+1989,36.6,75.6,6,25,Inverno,MuitoSeco
 1989,43.0,261.40000000000003,23,7,Inverno,Normal
 1989,43.0,261.40000000000003,23,7,Inverno,Normal
 1989,51.2,224.6,17,14,Outono,Normal
 1989,51.2,224.6,17,14,Outono,Normal
-1989,68.7,293.0,23,7,Outono,Muito Chuvoso
-1989,68.7,293.0,23,7,Outono,Muito Chuvoso
-1989,80.0,381.2,22,9,Outono,Muito Chuvoso
-1989,119.7,481.2,22,9,Outono,Muito Chuvoso
-1989,46.2,124.9,18,10,Verão,Muito Seco
-1989,46.2,124.9,18,10,Verão,Muito Seco
-1989,8.2,91.8,16,15,Verão,Muito Seco
-1989,8.2,91.8,16,15,Verão,Muito Seco
-1988,7.0,56.0,10,21,Verão,Muito Seco
-1988,7.0,56.0,10,21,Verão,Muito Seco
-1988,7.2,53.0,9,21,Primavera,Muito Seco
-1988,7.2,53.0,9,21,Primavera,Muito Seco
-1988,7.4,56.8,9,22,Primavera,Muito Seco
-1988,7.4,56.8,9,22,Primavera,Muito Seco
-1988,7.2,53.2,9,21,Primavera,Muito Seco
-1988,7.2,53.2,9,21,Primavera,Muito Seco
-1988,6.2,12.6,3,28,Inverno,Muito Seco
-1988,6.2,12.6,3,28,Inverno,Muito Seco
-1988,7.0,46.4,7,24,Inverno,Muito Seco
-1988,7.0,46.4,7,24,Inverno,Muito Seco
-1988,7.4,32.4,6,24,Inverno,Muito Seco
-1988,7.4,32.4,6,24,Inverno,Muito Seco
-1988,7.4,109.4,19,12,Outono,Muito Seco
-1988,7.4,109.4,19,12,Outono,Muito Seco
-1988,7.8,66.39999999999999,10,20,Outono,Muito Seco
-1988,7.8,66.39999999999999,10,20,Outono,Muito Seco
-1988,32.0,119.6,9,22,Outono,Muito Seco
-1988,32.0,119.6,9,22,Outono,Muito Seco
-1988,26.8,135.6,19,10,Verão,Normal
-1988,26.8,135.6,19,10,Verão,Normal
-1988,67.0,335.6,19,12,Verão,Muito Chuvoso
-1988,67.0,335.6,19,12,Verão,Muito Chuvoso
-1987,53.0,225.6,19,12,Verão,Normal
-1987,53.0,225.6,19,12,Verão,Normal
+1989,68.7,293.0,23,7,Outono,MuitoChuvoso
+1989,68.7,293.0,23,7,Outono,MuitoChuvoso
+1989,80.0,381.2,22,9,Outono,MuitoChuvoso
+1989,119.7,481.2,22,9,Outono,MuitoChuvoso
+1989,46.2,124.9,18,10,Verao,MuitoSeco
+1989,46.2,124.9,18,10,Verao,MuitoSeco
+1989,8.2,91.8,16,15,Verao,MuitoSeco
+1989,8.2,91.8,16,15,Verao,MuitoSeco
+1988,7.0,56.0,10,21,Verao,MuitoSeco
+1988,7.0,56.0,10,21,Verao,MuitoSeco
+1988,7.2,53.0,9,21,Primavera,MuitoSeco
+1988,7.2,53.0,9,21,Primavera,MuitoSeco
+1988,7.4,56.8,9,22,Primavera,MuitoSeco
+1988,7.4,56.8,9,22,Primavera,MuitoSeco
+1988,7.2,53.2,9,21,Primavera,MuitoSeco
+1988,7.2,53.2,9,21,Primavera,MuitoSeco
+1988,6.2,12.6,3,28,Inverno,MuitoSeco
+1988,6.2,12.6,3,28,Inverno,MuitoSeco
+1988,7.0,46.4,7,24,Inverno,MuitoSeco
+1988,7.0,46.4,7,24,Inverno,MuitoSeco
+1988,7.4,32.4,6,24,Inverno,MuitoSeco
+1988,7.4,32.4,6,24,Inverno,MuitoSeco
+1988,7.4,109.4,19,12,Outono,MuitoSeco
+1988,7.4,109.4,19,12,Outono,MuitoSeco
+1988,7.8,66.39999999999999,10,20,Outono,MuitoSeco
+1988,7.8,66.39999999999999,10,20,Outono,MuitoSeco
+1988,32.0,119.6,9,22,Outono,MuitoSeco
+1988,32.0,119.6,9,22,Outono,MuitoSeco
+1988,26.8,135.6,19,10,Verao,Normal
+1988,26.8,135.6,19,10,Verao,Normal
+1988,67.0,335.6,19,12,Verao,MuitoChuvoso
+1988,67.0,335.6,19,12,Verao,MuitoChuvoso
+1987,53.0,225.6,19,12,Verao,Normal
+1987,53.0,225.6,19,12,Verao,Normal
 1987,53.0,185.6,13,17,Primavera,Normal
 1987,53.0,185.6,13,17,Primavera,Normal
-1987,10.4,61.9,11,20,Primavera,Muito Seco
-1987,10.4,61.9,11,20,Primavera,Muito Seco
-1987,38.8,88.2,7,23,Primavera,Muito Seco
-1987,38.8,88.2,7,23,Primavera,Muito Seco
-1987,10.0,28.4,4,27,Inverno,Muito Seco
-1987,10.0,28.4,4,27,Inverno,Muito Seco
+1987,10.4,61.9,11,20,Primavera,MuitoSeco
+1987,10.4,61.9,11,20,Primavera,MuitoSeco
+1987,38.8,88.2,7,23,Primavera,MuitoSeco
+1987,38.8,88.2,7,23,Primavera,MuitoSeco
+1987,10.0,28.4,4,27,Inverno,MuitoSeco
+1987,10.0,28.4,4,27,Inverno,MuitoSeco
 1987,62.6,223.6,12,19,Inverno,Normal
 1987,62.6,223.6,12,19,Inverno,Normal
 1987,52.4,169.70000000000002,13,17,Inverno,Normal
 1987,52.4,169.70000000000002,13,17,Inverno,Normal
-1987,37.0,125.2,15,16,Outono,Muito Seco
-1987,37.0,125.2,15,16,Outono,Muito Seco
-1987,75.0,431.2,21,9,Outono,Muito Chuvoso
-1987,75.0,431.2,21,9,Outono,Muito Chuvoso
+1987,37.0,125.2,15,16,Outono,MuitoSeco
+1987,37.0,125.2,15,16,Outono,MuitoSeco
+1987,75.0,431.2,21,9,Outono,MuitoChuvoso
+1987,75.0,431.2,21,9,Outono,MuitoChuvoso
 1987,75.6,265.3,13,18,Outono,Normal
 1987,75.6,265.3,13,18,Outono,Normal
-1987,37.8,283.5,24,4,Verão,Muito Chuvoso
-1987,37.8,283.5,24,4,Verão,Muito Chuvoso
-1987,68.8,447.2000000000001,21,10,Verão,Muito Chuvoso
-1987,68.8,447.2000000000001,21,10,Verão,Muito Chuvoso
-1986,73.8,256.90000000000003,17,14,Verão,Normal
-1986,73.8,256.90000000000003,17,14,Verão,Normal
-1986,59.6,346.2,14,16,Primavera,Muito Chuvoso
-1986,120.0,454.2000000000001,14,16,Primavera,Muito Chuvoso
+1987,37.8,283.5,24,4,Verao,MuitoChuvoso
+1987,37.8,283.5,24,4,Verao,MuitoChuvoso
+1987,68.8,447.2000000000001,21,10,Verao,MuitoChuvoso
+1987,68.8,447.2000000000001,21,10,Verao,MuitoChuvoso
+1986,73.8,256.90000000000003,17,14,Verao,Normal
+1986,73.8,256.90000000000003,17,14,Verao,Normal
+1986,59.6,346.2,14,16,Primavera,MuitoChuvoso
+1986,120.0,454.2000000000001,14,16,Primavera,MuitoChuvoso
 1986,35.2,159.5,15,16,Primavera,Normal
 1986,35.2,159.5,15,16,Primavera,Normal
 1986,25.0,172.2,16,14,Primavera,Normal
@@ -421,91 +421,91 @@
 1986,51.4,250.6,17,14,Outono,Normal
 1986,29.0,136.1,13,17,Outono,Normal
 1986,76.0,219.8,13,17,Outono,Normal
-1986,65.2,283.70000000000005,17,14,Outono,Muito Chuvoso
-1986,76.0,444.8,17,14,Outono,Muito Chuvoso
-1986,70.2,263.4,12,16,Verão,Normal
-1986,70.2,263.4,12,16,Verão,Normal
-1986,61.2,524.2,24,7,Verão,Muito Chuvoso
-1986,61.2,524.2,24,7,Verão,Muito Chuvoso
-1985,97.2,339.90000000000003,17,14,Verão,Muito Chuvoso
-1985,97.2,339.90000000000003,17,14,Verão,Muito Chuvoso
-1985,41.0,97.5,19,11,Primavera,Muito Seco
+1986,65.2,283.70000000000005,17,14,Outono,MuitoChuvoso
+1986,76.0,444.8,17,14,Outono,MuitoChuvoso
+1986,70.2,263.4,12,16,Verao,Normal
+1986,70.2,263.4,12,16,Verao,Normal
+1986,61.2,524.2,24,7,Verao,MuitoChuvoso
+1986,61.2,524.2,24,7,Verao,MuitoChuvoso
+1985,97.2,339.90000000000003,17,14,Verao,MuitoChuvoso
+1985,97.2,339.90000000000003,17,14,Verao,MuitoChuvoso
+1985,41.0,97.5,19,11,Primavera,MuitoSeco
 1985,111.0,197.5,19,11,Primavera,Normal
 1985,56.6,139.4,8,23,Primavera,Normal
 1985,56.6,139.4,8,23,Primavera,Normal
-1985,54.8,115.8,9,21,Primavera,Muito Seco
+1985,54.8,115.8,9,21,Primavera,MuitoSeco
 1985,64.0,203.4,9,21,Primavera,Normal
 1985,22.7,147.40000000000003,30,1,Inverno,Normal
-1985,22.7,41.69999999999999,29,2,Inverno,Muito Seco
+1985,22.7,41.69999999999999,29,2,Inverno,MuitoSeco
 1985,46.8,227.4,12,19,Inverno,Normal
 1985,46.8,227.4,12,19,Inverno,Normal
-1985,31.4,92.2,7,23,Inverno,Muito Seco
-1985,31.4,92.2,7,23,Inverno,Muito Seco
-1985,80.4,364.8,17,14,Outono,Muito Chuvoso
-1985,80.4,364.8,17,14,Outono,Muito Chuvoso
-1985,85.8,308.5,15,15,Outono,Muito Chuvoso
-1985,85.8,308.5,15,15,Outono,Muito Chuvoso
-1985,45.0,307.9,16,15,Outono,Muito Chuvoso
-1985,45.0,307.9,16,15,Outono,Muito Chuvoso
-1985,50.0,206.3,13,15,Verão,Normal
-1985,50.0,206.3,13,15,Verão,Normal
-1985,33.6,91.20000000000002,9,22,Verão,Muito Seco
-1985,33.6,91.20000000000002,9,22,Verão,Muito Seco
-1984,97.4,381.2,12,19,Verão,Muito Chuvoso
-1984,97.4,381.2,12,19,Verão,Muito Chuvoso
-1984,27.2,123.6,10,20,Primavera,Muito Seco
-1984,27.2,123.6,10,20,Primavera,Muito Seco
-1984,62.8,302.6,14,17,Primavera,Muito Chuvoso
-1984,62.8,302.6,14,17,Primavera,Muito Chuvoso
+1985,31.4,92.2,7,23,Inverno,MuitoSeco
+1985,31.4,92.2,7,23,Inverno,MuitoSeco
+1985,80.4,364.8,17,14,Outono,MuitoChuvoso
+1985,80.4,364.8,17,14,Outono,MuitoChuvoso
+1985,85.8,308.5,15,15,Outono,MuitoChuvoso
+1985,85.8,308.5,15,15,Outono,MuitoChuvoso
+1985,45.0,307.9,16,15,Outono,MuitoChuvoso
+1985,45.0,307.9,16,15,Outono,MuitoChuvoso
+1985,50.0,206.3,13,15,Verao,Normal
+1985,50.0,206.3,13,15,Verao,Normal
+1985,33.6,91.20000000000002,9,22,Verao,MuitoSeco
+1985,33.6,91.20000000000002,9,22,Verao,MuitoSeco
+1984,97.4,381.2,12,19,Verao,MuitoChuvoso
+1984,97.4,381.2,12,19,Verao,MuitoChuvoso
+1984,27.2,123.6,10,20,Primavera,MuitoSeco
+1984,27.2,123.6,10,20,Primavera,MuitoSeco
+1984,62.8,302.6,14,17,Primavera,MuitoChuvoso
+1984,62.8,302.6,14,17,Primavera,MuitoChuvoso
 1984,69.8,223.0,13,17,Primavera,Normal
 1984,69.8,223.0,13,17,Primavera,Normal
-1984,21.4,123.2,11,20,Inverno,Muito Seco
-1984,21.4,123.2,11,20,Inverno,Muito Seco
+1984,21.4,123.2,11,20,Inverno,MuitoSeco
+1984,21.4,123.2,11,20,Inverno,MuitoSeco
 1984,48.4,211.4,13,18,Inverno,Normal
 1984,48.4,211.4,13,18,Inverno,Normal
-1984,33.0,127.8,9,21,Inverno,Muito Seco
-1984,33.0,127.8,9,21,Inverno,Muito Seco
+1984,33.0,127.8,9,21,Inverno,MuitoSeco
+1984,33.0,127.8,9,21,Inverno,MuitoSeco
 1984,47.6,181.8,13,18,Outono,Normal
 1984,47.6,181.8,13,18,Outono,Normal
-1984,109.6,283.7,15,15,Outono,Muito Chuvoso
-1984,214.4,476.7000000000001,15,15,Outono,Muito Chuvoso
+1984,109.6,283.7,15,15,Outono,MuitoChuvoso
+1984,214.4,476.7000000000001,15,15,Outono,MuitoChuvoso
 1984,80.0,211.8,13,18,Outono,Normal
 1984,80.0,211.8,13,18,Outono,Normal
-1984,66.8,488.6,20,9,Verão,Muito Chuvoso
-1984,66.8,488.6,20,9,Verão,Muito Chuvoso
-1984,95.0,203.8,7,24,Verão,Normal
-1984,95.0,203.8,7,24,Verão,Normal
-1983,86.2,282.4,11,20,Verão,Muito Chuvoso
-1983,86.2,282.4,11,20,Verão,Muito Chuvoso
-1983,43.0,111.4,8,22,Primavera,Muito Seco
-1983,43.0,111.4,8,22,Primavera,Muito Seco
+1984,66.8,488.6,20,9,Verao,MuitoChuvoso
+1984,66.8,488.6,20,9,Verao,MuitoChuvoso
+1984,95.0,203.8,7,24,Verao,Normal
+1984,95.0,203.8,7,24,Verao,Normal
+1983,86.2,282.4,11,20,Verao,MuitoChuvoso
+1983,86.2,282.4,11,20,Verao,MuitoChuvoso
+1983,43.0,111.4,8,22,Primavera,MuitoSeco
+1983,43.0,111.4,8,22,Primavera,MuitoSeco
 1983,41.8,251.9,15,16,Primavera,Normal
-1983,51.0,387.8,15,16,Primavera,Muito Chuvoso
-1983,24.8,45.5,7,23,Primavera,Muito Seco
+1983,51.0,387.8,15,16,Primavera,MuitoChuvoso
+1983,24.8,45.5,7,23,Primavera,MuitoSeco
 1983,40.6,140.89999999999998,7,23,Primavera,Normal
-1983,33.4,88.5,9,22,Inverno,Muito Seco
-1983,33.4,88.5,9,22,Inverno,Muito Seco
-1983,30.2,114.2,11,20,Inverno,Muito Seco
-1983,30.2,114.2,11,20,Inverno,Muito Seco
-1983,17.8,61.39999999999999,5,25,Inverno,Muito Seco
-1983,17.8,61.39999999999999,5,25,Inverno,Muito Seco
-1983,73.8,279.8,11,20,Outono,Muito Chuvoso
-1983,73.8,279.8,11,20,Outono,Muito Chuvoso
+1983,33.4,88.5,9,22,Inverno,MuitoSeco
+1983,33.4,88.5,9,22,Inverno,MuitoSeco
+1983,30.2,114.2,11,20,Inverno,MuitoSeco
+1983,30.2,114.2,11,20,Inverno,MuitoSeco
+1983,17.8,61.39999999999999,5,25,Inverno,MuitoSeco
+1983,17.8,61.39999999999999,5,25,Inverno,MuitoSeco
+1983,73.8,279.8,11,20,Outono,MuitoChuvoso
+1983,73.8,279.8,11,20,Outono,MuitoChuvoso
 1983,69.2,241.5,15,15,Outono,Normal
-1983,72.0,424.2,15,15,Outono,Muito Chuvoso
+1983,72.0,424.2,15,15,Outono,MuitoChuvoso
 1983,87.8,262.0,11,20,Outono,Normal
 1983,87.8,262.0,11,20,Outono,Normal
-1983,85.0,380.4,11,17,Verão,Muito Chuvoso
-1983,85.0,380.4,11,17,Verão,Muito Chuvoso
-1983,54.2,171.8,12,19,Verão,Normal
-1983,54.2,171.8,12,19,Verão,Normal
-1982,14.6,49.8,6,25,Verão,Muito Seco
-1982,14.6,49.8,6,25,Verão,Muito Seco
-1982,85.6,431.19999999999993,17,13,Primavera,Muito Chuvoso
-1982,85.6,431.19999999999993,17,13,Primavera,Muito Chuvoso
+1983,85.0,380.4,11,17,Verao,MuitoChuvoso
+1983,85.0,380.4,11,17,Verao,MuitoChuvoso
+1983,54.2,171.8,12,19,Verao,Normal
+1983,54.2,171.8,12,19,Verao,Normal
+1982,14.6,49.8,6,25,Verao,MuitoSeco
+1982,14.6,49.8,6,25,Verao,MuitoSeco
+1982,85.6,431.19999999999993,17,13,Primavera,MuitoChuvoso
+1982,85.6,431.19999999999993,17,13,Primavera,MuitoChuvoso
 1982,63.8,218.1,11,20,Primavera,Normal
 1982,63.8,218.1,11,20,Primavera,Normal
-1982,75.0,356.7,17,13,Primavera,Muito Chuvoso
-1982,75.0,356.7,17,13,Primavera,Muito Chuvoso
-1982,24.0,125.2,11,20,Inverno,Muito Seco
-1982,24.0,125.2,11,20,Inverno,Muito Seco
+1982,75.0,356.7,17,13,Primavera,MuitoChuvoso
+1982,75.0,356.7,17,13,Primavera,MuitoChuvoso
+1982,24.0,125.2,11,20,Inverno,MuitoSeco
+1982,24.0,125.2,11,20,Inverno,MuitoSeco
