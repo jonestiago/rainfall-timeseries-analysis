@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     precipitacao_tabatinga
+Instances:    500
+Attributes:   7
+              Ano
+              Maxima
+              Total
+              NumDiasDeChuva
+              NumDiasSemChuva
+              Estacao
+              Classificacao_Chuva
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Total <= 133.9: MuitoSeco (183.0)
+Total > 133.9
+|   Total <= 267.7: Normal (170.0)
+|   Total > 267.7: MuitoChuvoso (147.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0.08 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         499               99.8    %
+Incorrectly Classified Instances         1                0.2    %
+Kappa statistic                          0.997 
+Mean absolute error                      0.0013
+Root mean squared error                  0.0365
+Relative absolute error                  0.3012 %
+Root relative squared error              7.7612 %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,003    0,993      1,000    0,997      0,995    0,999     0,993     MuitoChuvoso
+                 0,994    0,000    1,000      0,994    0,997      0,996    0,997     0,996     Normal
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     MuitoSeco
+Weighted Avg.    0,998    0,001    0,998      0,998    0,998      0,997    0,999     0,997     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 147   0   0 |   a = MuitoChuvoso
+   1 169   0 |   b = Normal
+   0   0 183 |   c = MuitoSeco
+
