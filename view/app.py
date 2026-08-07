@@ -1,3 +1,10 @@
+'''
+Atividade III - Construção de dashboard interativo
+
+Desenvolvido por: Jones Silva
+Ferramentas: Streamlit e Python
+'''
+
 # Importando bibliotecas necessárias
 import streamlit as st
 import pandas as pd
