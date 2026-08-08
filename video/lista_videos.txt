@@ -1,6 +1,6 @@
 Video 1
 Data Science aplicada a dados pluviométricos - Pt. I: A plataforma Hidroweb
-link: https://youtu.be/ebSSbauur-M?si=tbhHG6_tmWcSh8-A
+link: https://youtu.be/ebSSbauur-M
 
 Video 2
 Data Science aplicada a dados pluviométricos - Pt. II: Análise Exploratória de Dados
@@ -9,3 +9,7 @@ link: https://youtu.be/ZYO8MtIOF_4
 Video 3
 Data Science aplicada a dados pluviométricos - Pt. III: Dashboard
 link: https://youtu.be/cvemgEYkQ-A
+
+Video 4
+Data Science aplicada a dados pluviométricos - Pt. IV: Weka
+link: https://youtu.be/kDmEHm2HxQ0
